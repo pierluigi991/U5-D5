@@ -1,0 +1,10 @@
+.conteiner{
+    max-width: 100%;
+            margin-inline: auto;
+            background-color: aliceblue;
+            margin-bottom: 24px;
+}
+h1{
+    color: yellow;
+    font-size: bold;
+}

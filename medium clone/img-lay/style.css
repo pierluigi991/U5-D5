@@ -1,0 +1,208 @@
+.conteiner{
+    /* width: 100%;
+    height: auto; */
+}
+.menu{
+    width: 100%;
+    height: 550px;
+    background-color: #ffc017;
+    
+}
+.articolo{
+    width: 100%;
+    height: auto
+    background-color: white;
+}
+.barra{
+    width: auto;
+    height: 100px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: flex end;
+    align-items: center;
+    padding: 15px 10%;
+    
+}
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.menu,button{
+     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(29, 29, 29);
+   
+}
+.menu{
+    text-decoration: none;
+    list-style-type: none;
+}
+ li{
+    display: inline-block;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+.start{
+    padding: 9px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+button:hover{
+    background-color: blue;
+}
+.title{
+    width: 50%;
+    flex-direction: column;
+    
+}
+h1{
+    padding: 35px;
+    font-size: 70px;
+    letter-spacing: -0.05em;
+    line-height: 74px;
+    color: rgba(8, 8, 8, 1);
+    font-family: 'Spectral', serif;
+    font-weight: 200px;
+    box-sizing: inherit;
+    margin-bottom: -40px;
+    margin-left: 60px;
+    
+}
+.discover{
+    padding: 35px;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(41, 41, 41, 1);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    margin-left: 60px;
+    
+}
+.btn{
+    width: 200px;
+    padding: 9px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin-left: 60px;
+}
+.trending{
+    
+    width: 100%;
+    height: 10px;
+    margin-left: 60px;
+    margin-top: 35px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.conteiner2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 0.5px solid;
+}
+h4{
+    padding-right: 2px;
+    word-break: break-all;
+    display: -webkit-box;
+    max-height: 16px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    overflow: hidden;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+.media1, .media2, .media3, .media4, .media5, .media6{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.number{
+    margin-top: 2px;
+    padding: 5px;
+    color: rgba(230, 230, 230, 1);
+    letter-spacing: 0;
+    line-height: 36px;
+    font-weight: 500;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.conteiner3{
+    width: 100%;
+    
+    display: flex;
+    align-content: center;
+    
+    
+}
+
+.fonts, .discover{
+    width: 50%; 
+}
+.discover{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.art{
+    margin-left: 25px;
+}
+.art1{
+    /* margin: 50px; */
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.fonts{
+    border-right: 1px solid;
+
+}
+
+.discover p{
+    font-size: 13px;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+}
+.link{
+    padding: 6px 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    box-sizing: inherit;
+    cursor: pointer;
+}
+/*Non sono riuscito a pescare le immagini dagli assets ne a portare i paragrafi a destra ci lavorero tutto il pomeriggio*/
